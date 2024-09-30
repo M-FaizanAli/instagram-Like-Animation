@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+img {
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+i{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    transform: scale(1);
+    transition: transform ease 0.5s;
+}
